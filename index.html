@@ -17,7 +17,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css"
     />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./testimonial.css" />
   </head>
+
   <body>
     <!-- Start of Navbar -->
     <nav class="navbar navbar-expand-custom navbar-mainbg fixed-top">
@@ -41,12 +43,7 @@
             <a
               class="nav-link"
               href="#"
-              ><i class="fas fa-tachometer-alt"></i>Dashboard</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="testimoni.html"
-              ><i class="far fa-address-book"></i>Testimoni</a
+              ><i class="fas fa-tachometer-alt"></i>Beranda</a
             >
           </li>
           <li class="nav-item">
@@ -55,18 +52,23 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"
-              ><i class="far fa-calendar-alt"></i>Calendar</a
+            <a class="nav-link" href="#testimoni"
+              ><i class="far fa-address-card"></i>Testimoni</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"
-              ><i class="far fa-chart-bar"></i>Charts</a
+            <a class="nav-link" href="registrasi.html"
+              ><i class="far fa-address-book"></i>Pendaftaran</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"
-              ><i class="far fa-copy"></i>Documents</a
+            <a class="nav-link" href="https://www.sif.upj.ac.id/"
+              ><i class="fa fa-search"></i>Tentang Sif UPJ</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="dokumen.html"
+              ><i class="far fa-copy"></i>Dokumen</a
             >
           </li>
         </ul>
@@ -81,10 +83,11 @@
           <img class="img-fluid rounded-4" src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=f6812c92d213124d45a1719e3d2d39ba"></img>
         </div>
         <div class="col-md-6 text-end pt-5 px-4">
-            <h2 class="block">A tribute to the framework</h2>
+            <h2 class="block fw-bold">Merdeka Belajar Kampus Merdeka</h2>
             <p>Build responsive, mobile-first projects on the web with the          world's most popular front-end component library.</p>
             <p>Bootstrap is an open source toolkit for developing with              HTML, CSS, and JS. Quickly prototype your ideas or build            your entire app with our Sass variables and mixins,                  responsive grid system, extensive prebuilt components, and          powerful plugins built on jQuery.</p>
-            <a class="btn btn-dark button-home" href="https://getbootstrap.com/">Try it out yourself!</a>
+            <a class="btn btn-outline-primary" href="#"><i class="far fa-paper-plane"></i> Daftarkan Dirimu</a>
+            <a class="btn btn-dark button-home" href="#program-mbkm"><i class="far fa-clone"></i> Telusuri lebih lanjut</a>
         </div>
       </div>
     </section>
@@ -94,11 +97,9 @@
     <section class="page-section program-mbkm container" id="program-mbkm">
       <div class="container">
         <!-- program-mbkm Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">8 Program MBKM</h2>
-        <!-- Icon Divider-->
-        <div class="divider-custom">
+        <div class="divider-custom mb-5">
           <div class="divider-custom-line"></div>
-          <div class="divider-custom-icon"><i class="fas fa-project-diagram"></i></div>
+          <div class="divider-custom-icon"><h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">8 Program MBKM</h2></div>
           <div class="divider-custom-line"></div>
         </div>
         <!-- program-mbkm Grid Items-->
@@ -114,7 +115,7 @@
           </div>
           <!-- program-mbkm Item 2-->
           <div class="col-md-6 col-lg-3 mb-3">
-            <div class="program-mbkm-item mx-auto" data-bs-toggle="modal" data-bs-target="#program-mbkmModal2">
+            <div class="program-mbkm-item mx-auto" data-bs-toggle="modal" data-bs-target="#program-mbkmModal1">
               <div class="program-mbkm-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                 <div class="program-mbkm-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
               </div>
@@ -123,7 +124,7 @@
           </div>
           <!-- program-mbkm Item 3-->
           <div class="col-md-6 col-lg-3 mb-3">
-            <div class="program-mbkm-item mx-auto" data-bs-toggle="modal" data-bs-target="#program-mbkmModal3">
+            <div class="program-mbkm-item mx-auto" data-bs-toggle="modal" data-bs-target="#program-mbkmModal1">
               <div class="program-mbkm-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                 <div class="program-mbkm-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
               </div>
@@ -132,7 +133,7 @@
           </div>
           <!-- program-mbkm Item 4-->
           <div class="col-md-6 col-lg-3 mb-3">
-            <div class="program-mbkm-item mx-auto" data-bs-toggle="modal" data-bs-target="#program-mbkmModal3">
+            <div class="program-mbkm-item mx-auto" data-bs-toggle="modal" data-bs-target="#program-mbkmModal1">
               <div class="program-mbkm-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                 <div class="program-mbkm-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
               </div>
@@ -145,34 +146,34 @@
               <div class="program-mbkm-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                 <div class="program-mbkm-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
               </div>
-              <img class="img-fluid" src="https://images.unsplash.com/photo-1597534458220-9fb4969f2df5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="..." />
+              <img class="img-fluid" src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="..." />
             </div>
           </div>
           <!-- program-mbkm Item 2-->
           <div class="col-md-6 col-lg-3 mb-3">
-            <div class="program-mbkm-item mx-auto" data-bs-toggle="modal" data-bs-target="#program-mbkmModal2">
+            <div class="program-mbkm-item mx-auto" data-bs-toggle="modal" data-bs-target="#program-mbkmModal1">
               <div class="program-mbkm-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                 <div class="program-mbkm-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
               </div>
-              <img class="img-fluid" src="https://images.unsplash.com/photo-1597534458220-9fb4969f2df5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="..." />
+              <img class="img-fluid" src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="..." />
             </div>
           </div>
           <!-- program-mbkm Item 3-->
           <div class="col-md-6 col-lg-3 mb-3">
-            <div class="program-mbkm-item mx-auto" data-bs-toggle="modal" data-bs-target="#program-mbkmModal3">
+            <div class="program-mbkm-item mx-auto" data-bs-toggle="modal" data-bs-target="#program-mbkmModal1">
               <div class="program-mbkm-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                 <div class="program-mbkm-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
               </div>
-              <img class="img-fluid" src="https://images.unsplash.com/photo-1597534458220-9fb4969f2df5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="..." />
+              <img class="img-fluid" src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="..." />
             </div>
           </div>
           <!-- program-mbkm Item 4-->
           <div class="col-md-6 col-lg-3 mb-3">
-            <div class="program-mbkm-item mx-auto" data-bs-toggle="modal" data-bs-target="#program-mbkmModal3">
+            <div class="program-mbkm-item mx-auto" data-bs-toggle="modal" data-bs-target="#program-mbkmModal1">
               <div class="program-mbkm-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                 <div class="program-mbkm-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
               </div>
-              <img class="img-fluid" src="https://images.unsplash.com/photo-1597534458220-9fb4969f2df5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="..." />
+              <img class="img-fluid" src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="..." />
             </div>
           </div>
           <!--End Portofolio-->
@@ -180,6 +181,218 @@
       </div>
     </section>
     <!-- End of 8 Program mbkm -->
+    
+    <!-- Start of Testimoni -->
+    <section class="page-section container mb-5" id="testimoni" style="margin-top: -2%;">
+      <div class="container">
+        <!-- program-mbkm Section Heading-->
+        <div class="divider-custom mb-5">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon"><h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Testimoni</h2></div>
+          <div class="divider-custom-line"></div>
+        </div>
+        <!-- Grid Testimoni -->
+      </div>
+      <div class="container d-flex align-items-center justify-content-center flex-wrap">
+        <div class="box">
+            <div class="body">
+                <div class="imgContainer">
+                    <img src="https://images.pexels.com/photos/3601422/pexels-photo-3601422.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                </div>
+                <div class="content d-flex flex-column align-items-center justify-content-center">
+                    <div>
+                        <h3 class="text-white fs-5">Post Title</h3>
+                        <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="body">
+                <div class="imgContainer">
+                    <img src="https://images.pexels.com/photos/1532771/pexels-photo-1532771.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                </div>
+                <div class="content d-flex flex-column align-items-center justify-content-center">
+                    <div>
+                        <h3 class="text-white fs-5">Post Title</h3>
+                        <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="body">
+                <div class="imgContainer">
+                    <img src="https://images.pexels.com/photos/573238/pexels-photo-573238.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="">
+                </div>
+                <div class="content d-flex flex-column align-items-center justify-content-center">
+                    <div>
+                        <h3 class="text-white fs-5">Post Title</h3>
+                        <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- End of Testimoni -->
+
+    <!-- Start of Footer -->
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-dark text-light">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3 text-secondary"></i>Company name
+              </h6>
+              <p>
+                Here you can use rows and columns to organize your footer content. Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Products
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Angular</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">React</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Vue</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Laravel</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Useful links
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Pricing</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Settings</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Orders</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Help</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+              <p>
+                <i class="fas fa-envelope me-3 text-secondary"></i>
+                info@example.com
+              </p>
+              <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- End of Footer -->
+
+    <!-- program-mbkm Modal 1-->
+    <div class="program-mbkm-modal modal fade" id="program-mbkmModal1" tabindex="-1" aria-labelledby="program-mbkmModal1" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+          <div class="modal-body text-center pb-5">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- program-mbkm Modal - Title-->
+                  <h2 class="program-mbkm-modal-title text-secondary text-uppercase mb-0">Nama Program MBKM</h2>
+                  <br>
+                  <!-- program-mbkm Modal - Image-->
+                  <img class="img-fluid rounded mb-5" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80" alt="..." />
+                  <!-- program-mbkm Modal - Text-->
+                  <p class="mb-4">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid nam, aspernatur accusantium ea id temporibus magni, voluptatibus ullam eum corrupti error amet. Eos esse nam recusandae voluptate! Consectetur, inventore consequuntur?
+                  </p>
+                  <a href="#pendaftaran" style="color: white">
+                    <button class="btn btn-primary">
+                      <i class="fas fa-paper-plane"></i>
+                      Daftar Program
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End program-mbkm Modal 1-->
 
     <!-- partial -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

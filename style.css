@@ -182,10 +182,10 @@ i {
 	left: 0;
 	transition: all 0.2s ease-in-out;
 	opacity: 0;
-	background-color: rgba(26, 188, 156, 0.9);
+	background-color: #4365ca;
   }
   .program-mbkm .program-mbkm-item .program-mbkm-item-caption:hover {
-	opacity: 1;
+	opacity: 0.75;
   }
   .program-mbkm .program-mbkm-item .program-mbkm-item-caption .program-mbkm-item-caption-content {
 	font-size: 1.5rem;

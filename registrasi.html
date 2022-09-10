@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Registrasi</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css"
+    />
+    <link rel="stylesheet" href="registrasi.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="pt-5">
+    <!-- Start of Navbar -->
+    <nav class="navbar navbar-expand-custom navbar-mainbg fixed-top">
+      <a class="navbar-brand navbar-logo" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars text-white"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <div class="hori-selector">
+            <div class="left"></div>
+            <div class="right"></div>
+          </div>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#"
+              ><i class="fas fa-tachometer-alt"></i>Beranda</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#program-mbkm"
+              ><i class="far fa-clone"></i>Program MBKM</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#testimoni"
+              ><i class="far fa-address-card"></i>Testimoni</a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="registrasi.html"
+              ><i class="far fa-address-book"></i>Pendaftaran</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.sif.upj.ac.id/"
+              ><i class="fa fa-search"></i>Tentang Sif UPJ</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="dokumen.html"
+              ><i class="far fa-copy"></i>Dokumen</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+    
+    <div class="container m-auto px-5 py-5 bg-info rounded-5 my-5">
+      <div class="divider-custom mb-5">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Form Pendaftaran</h2></div>
+        <div class="divider-custom-line"></div>
+      </div>
+      <form class="mx-auto">
+        <!-- 2 column grid layout with text inputs for the first and last names -->
+        <div class="row mb-2">
+          <div class="col">
+            <div class="form-outline">
+              <label class="form-label" for="form6Example1">Nama Lengkap</label>
+              <input type="text" id="form6Example1" class="form-control" />
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-outline">
+              <label class="form-label" for="form6Example2">NIM</label>
+              <input type="number" id="form6Example2" class="form-control" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Text input -->
+        <div class="form-outline mb-2">
+          <label class="form-label" for="form6Example3">Program MBKM</label>
+          <select class="form-select" id="inputGroupSelect01">
+            <option value="Studi Independen">Studi Independen</option>
+            <option value="Magang">Magang</option>
+            <option value="Pertukaran Mahasiswa">Pertukaran Mahasiswa</option>
+            <option value="Proyek Kemanusiaan">Proyek Kemanusiaan</option>
+            <option value="Kegiatan Wirausaha">Kegiatan Wirausaha</option>
+            <option value="Asistensi Mengajar">Asistensi Mengajar</option>
+            <option value="Penelitian/Riset">Penelitian/Riset</option>
+            <option value="Membangun Desa/KKN">Membangun Desa/KKN</option>
+          </select>
+        </div>
+
+        <!-- 2 column grid layout with text inputs for the first and last names -->
+        <div class="row mb-2">
+          <div class="col">
+            <div class="form-outline">
+              <label class="form-label" for="form6Example1">Semester</label>
+              <select class="form-select" id="inputGroupSelect01">
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-outline">
+              <label class="form-label" for="form6Example2">No. HP</label>
+              <input type="number" id="form6Example2" class="form-control" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Email input -->
+        <div class="form-outline mb-2">
+          <label class="form-label" for="form6Example5">Email</label>
+          <input type="email" id="form6Example5" class="form-control" />
+        </div>
+
+        <!-- Text input -->
+        <div class="form-outline mb-3">
+          <label class="form-label" for="form6Example4">Alamat</label>
+          <input type="text" id="form6Example4" class="form-control" />
+        </div>
+
+        <!-- Text input -->
+        <div class="form-outline mb-2">
+          <label class="form-label" for="form6Example4"
+            >Surat Rekomendasi Prodi</label
+          >
+          <input type="file" id="form6Example4" class="form-control" />
+        </div>
+
+        <!-- Text input -->
+        <div class="form-outline mb-4">
+          <label class="form-label" for="form6Example4"
+            >Surat Pernyataan Tanggung Jawab</label
+          >
+          <input type="file" id="form6Example4" class="form-control" />
+        </div>
+
+        <!-- Message input
+        <div class="form-outline mb-3">
+          <label class="form-label" for="form6Example7">Additional information</label>
+          <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+        </div> -->
+
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary btn-block mb-1 w-100">
+          Mendaftar
+        </button>
+      </form>
+    </div>
+
+    <!-- partial -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
